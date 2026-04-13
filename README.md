@@ -17,15 +17,15 @@ and prepares them for publication
 
 Contributors:
 
--   Michael Franke (https://orcid.org/0000-0002-2661-8242), Max Planck
-    Digital Library
--   Pepito Pérez, Max Planck Digital Library
--   David Walter (cff, keine ORCID), Max Planck Digital Library & Max
-    Planck Institute for Chemistry
--   Laura Bahamón (https://orcid.org/0009-0003-9330-9292), Max Planck
-    Digital Library
--   David Walter (https://orcid.org/0000-0001-6807-5007), Research Data
-    Management at Max Planck Digital Library & Data management R/Y Eugen
-    Seibold, PANGAEA data editor at Max Planck Institute for Chemistry
+-   Michael Franke (https://orcid.org/0000-0002-2661-8242)
+-   Pepito Pérez
+-   David Walter (cff, keine ORCID)
+-   Laura Bahamón (https://orcid.org/0009-0003-9330-9292)
+-   David Walter (https://orcid.org/0000-0001-6807-5007)
+-   Pepito Pérez
+-   David Walter (cff, keine ORCID)
 
-Software license: MIT
+Software licenses:
+
+-   LGPL-3.0-only
+-   MIT
