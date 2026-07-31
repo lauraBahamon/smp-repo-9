@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-07-31T15:07:04.539081+02:00" required="2.1.0" version="2.5.1">
+	<title>MPILHLT</title>
+	<description/>
+	<catalog dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt"/>
+	<tasks>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/clarify_consequences_international_law"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_data_security_officer"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_IT_department"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_IT_or_data_management_expert"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_rights_owner"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/create_data_organisation_policy"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/create_naming_policy"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/determine_versioning_tool"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/finish-first-dmp"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/identify_rights_owner"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/inform_data_security_officer"/>
+	</tasks>
+	<views>
+		<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-report"/>
+		<view dc:uri="https://rdmo.mpdl.mpg.de/views/FAIR4RSview"/>
+	</views>
+	<created>2026-07-31T14:06:42.038024+02:00</created>
+	<updated>2026-07-31T14:06:42.038036+02:00</updated>
+</project>
