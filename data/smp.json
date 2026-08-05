@@ -12,7 +12,7 @@
   {
     "question": "In welche Anwendungsklasse wird die Software eingeordnet?",
     "set": "",
-    "values": "Anwendungsklasse 2: Die Software soll eine langfristige Entwicklung und Wartbarkeit gew\u00e4hrleisten. Sie ist die Grundlage f\u00fcr einen \u00dcbergang zum Produktstatus."
+    "values": "Anwendungsklasse 3: F\u00fcr die Software ist es wesentlich Fehler zu vermeiden und Risiken zu reduzieren. Dies gilt insbesondere f\u00fcr kritische Software und solche mit Produkteigenschaften."
   },
   {
     "question": "Was ist der beabsichtigte Verwendungszweck der Software? Wie wird Ihre Software zur Forschung beitragen?",
@@ -26,33 +26,23 @@
   },
   {
     "question": "Typ",
+    "set": "Set \"David Walter\"",
+    "values": "Person"
+  },
+  {
+    "question": "Typ",
     "set": "Set \"Michael Franke\"",
     "values": "Person"
   },
   {
     "question": "Typ",
-    "set": "Set \"Pepito P\u00e9rez\"",
+    "set": "Set \"Laura Baham\u00f3n Jim\u00e9nez\"",
     "values": "Person"
   },
   {
-    "question": "Typ",
-    "set": "Set \"David Walter (cff, keine ORCID)\"",
-    "values": "Person"
-  },
-  {
-    "question": "Typ",
-    "set": "Set \"Laura Baham\u00f3n\"",
-    "values": "Person"
-  },
-  {
-    "question": "Typ",
+    "question": "Familienname(n)",
     "set": "Set \"David Walter\"",
-    "values": "Person"
-  },
-  {
-    "question": "ORCID-Suche",
-    "set": "Set \"David Walter\"",
-    "values": "David Walter (Max Planck Digital Library, Max-Planck-Institut f\u00fcr Biogeochemie)"
+    "values": "Walter"
   },
   {
     "question": "Familienname(n)",
@@ -61,23 +51,13 @@
   },
   {
     "question": "Familienname(n)",
-    "set": "Set \"Pepito P\u00e9rez\"",
-    "values": "P\u00e9rez"
+    "set": "Set \"Laura Baham\u00f3n Jim\u00e9nez\"",
+    "values": "Baham\u00f3n Jim\u00e9nez"
   },
   {
-    "question": "Familienname(n)",
-    "set": "Set \"David Walter (cff, keine ORCID)\"",
-    "values": "Walter (cff, keine ORCID)"
-  },
-  {
-    "question": "Familienname(n)",
-    "set": "Set \"Laura Baham\u00f3n\"",
-    "values": "Baham\u00f3n"
-  },
-  {
-    "question": "Familienname(n)",
+    "question": "Rufname(n)",
     "set": "Set \"David Walter\"",
-    "values": "Walter"
+    "values": "David"
   },
   {
     "question": "Rufname(n)",
@@ -86,23 +66,13 @@
   },
   {
     "question": "Rufname(n)",
-    "set": "Set \"Pepito P\u00e9rez\"",
-    "values": "Pepito"
-  },
-  {
-    "question": "Rufname(n)",
-    "set": "Set \"David Walter (cff, keine ORCID)\"",
-    "values": "David"
-  },
-  {
-    "question": "Rufname(n)",
-    "set": "Set \"Laura Baham\u00f3n\"",
+    "set": "Set \"Laura Baham\u00f3n Jim\u00e9nez\"",
     "values": "Laura"
   },
   {
-    "question": "Rufname(n)",
+    "question": "ORCID",
     "set": "Set \"David Walter\"",
-    "values": "David"
+    "values": "https://orcid.org/0000-0001-6807-5007"
   },
   {
     "question": "ORCID",
@@ -111,26 +81,16 @@
   },
   {
     "question": "ORCID",
-    "set": "Set \"Laura Baham\u00f3n\"",
+    "set": "Set \"Laura Baham\u00f3n Jim\u00e9nez\"",
     "values": "https://orcid.org/0009-0003-9330-9292"
   },
   {
-    "question": "ORCID",
-    "set": "Set \"David Walter\"",
-    "values": "https://orcid.org/0000-0001-6807-5007"
-  },
-  {
-    "question": "Rolle",
+    "question": "Affiliation",
     "set": "Set \"David Walter\" Set #1",
-    "values": "Research Data Management"
+    "values": "Max Planck Digital Library"
   },
   {
-    "question": "Rolle",
-    "set": "Set \"David Walter\" Set #2",
-    "values": "Data management R/Y Eugen Seibold, PANGAEA data editor"
-  },
-  {
-    "question": "ROR-Suche",
+    "question": "Affiliation",
     "set": "Set \"David Walter\" Set #2",
     "values": "Max Planck Institute for Chemistry"
   },
@@ -141,43 +101,8 @@
   },
   {
     "question": "Affiliation",
-    "set": "Set \"Pepito P\u00e9rez\" Set #1",
+    "set": "Set \"Laura Baham\u00f3n Jim\u00e9nez\" Set #1",
     "values": "Max Planck Digital Library"
-  },
-  {
-    "question": "Affiliation",
-    "set": "Set \"David Walter (cff, keine ORCID)\" Set #1",
-    "values": "Max Planck Digital Library"
-  },
-  {
-    "question": "Affiliation",
-    "set": "Set \"David Walter (cff, keine ORCID)\" Set #2",
-    "values": "Max Planck Institute for Chemistry"
-  },
-  {
-    "question": "Affiliation",
-    "set": "Set \"Laura Baham\u00f3n\" Set #1",
-    "values": "Max Planck Digital Library"
-  },
-  {
-    "question": "Affiliation",
-    "set": "Set \"David Walter\" Set #1",
-    "values": "Max Planck Digital Library"
-  },
-  {
-    "question": "Affiliation",
-    "set": "Set \"David Walter\" Set #2",
-    "values": "Max Planck Institute for Chemistry"
-  },
-  {
-    "question": "ROR ID",
-    "set": "Set \"David Walter\" Set #1",
-    "values": "https://ror.org/0061msm67"
-  },
-  {
-    "question": "ROR ID",
-    "set": "Set \"David Walter\" Set #2",
-    "values": "https://ror.org/02f5b7n18"
   },
   {
     "question": "Gibt es existierende (personellen/finanziellen) Ressourcen oder wird es eine spezielle Finanzierung f\u00fcr die Softwareentwicklung geben?",
@@ -222,7 +147,7 @@
   {
     "question": "Welche Programmiersprache(n) planen Sie zu verwenden?",
     "set": "",
-    "values": "Python"
+    "values": "HTML; Python"
   },
   {
     "question": "Welche Technologie oder welches Verfahren wird f\u00fcr die Versionierung verwendet?",
@@ -362,7 +287,7 @@
   {
     "question": "Geben Sie einen dauerhaften Identifikator f\u00fcr Ihre Software an?",
     "set": "",
-    "values": "DOI: 10.5281/zenodo.1234"
+    "values": "DOI"
   },
   {
     "question": "Planen Sie Unterst\u00fctzung oder Hilfe f\u00fcr Nutzende Ihrer Software anzubieten?",
@@ -398,5 +323,10 @@
     "question": "Unter welche Art von Lizenz(en) wird die Software fallen?",
     "set": "",
     "values": "MIT"
+  },
+  {
+    "question": "Kann die Software auch f\u00fcr milit\u00e4rische Zwecke genutzt werden?",
+    "set": "",
+    "values": "No"
   }
 ]
