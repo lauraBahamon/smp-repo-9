@@ -1,39 +1,24 @@
 Wie lautet der Titel des Softwareprojekts?,,Weather Analyser
 Zu welchem(n) Forschungsbereich(en) gehört diese Software?,,Naturwissenschaften / Atmosphären- und Meeresforschung; Naturwissenschaften / Wasserforschung
-In welche Anwendungsklasse wird die Software eingeordnet?,,Anwendungsklasse 2: Die Software soll eine langfristige Entwicklung und Wartbarkeit gewährleisten. Sie ist die Grundlage für einen Übergang zum Produktstatus.
+In welche Anwendungsklasse wird die Software eingeordnet?,,Anwendungsklasse 3: Für die Software ist es wesentlich Fehler zu vermeiden und Risiken zu reduzieren. Dies gilt insbesondere für kritische Software und solche mit Produkteigenschaften.
 Was ist der beabsichtigte Verwendungszweck der Software? Wie wird Ihre Software zur Forschung beitragen?,,"Intended use: 1. To bundle all pipeline steps from the raw data from Automatic Weather Stations (AWS) to a final dashboard, 2. To allow for the download of the data in different formats Contribution to research: the software simplifies the quality control, and prepares them for publication"
 "Welche Funktion hat die neue Software, die bisherige Software nicht abdeckt? Welche verwandte Software gibt es und warum ist diese nicht geeignet?",,"It provides an easy-to-use interface that does not require any software background, and focuses in our specific use case"
-Typ,"Set ""Michael Franke""",Person
-Typ,"Set ""Pepito Pérez""",Person
-Typ,"Set ""David Walter (cff, keine ORCID)""",Person
-Typ,"Set ""Laura Bahamón""",Person
 Typ,"Set ""David Walter""",Person
-ORCID-Suche,"Set ""David Walter""","David Walter (Max Planck Digital Library, Max-Planck-Institut für Biogeochemie)"
-Familienname(n),"Set ""Michael Franke""",Franke
-Familienname(n),"Set ""Pepito Pérez""",Pérez
-Familienname(n),"Set ""David Walter (cff, keine ORCID)""","Walter (cff, keine ORCID)"
-Familienname(n),"Set ""Laura Bahamón""",Bahamón
+Typ,"Set ""Michael Franke""",Person
+Typ,"Set ""Laura Bahamón Jiménez""",Person
 Familienname(n),"Set ""David Walter""",Walter
-Rufname(n),"Set ""Michael Franke""",Michael
-Rufname(n),"Set ""Pepito Pérez""",Pepito
-Rufname(n),"Set ""David Walter (cff, keine ORCID)""",David
-Rufname(n),"Set ""Laura Bahamón""",Laura
+Familienname(n),"Set ""Michael Franke""",Franke
+Familienname(n),"Set ""Laura Bahamón Jiménez""",Bahamón Jiménez
 Rufname(n),"Set ""David Walter""",David
-ORCID,"Set ""Michael Franke""",https://orcid.org/0000-0002-2661-8242
-ORCID,"Set ""Laura Bahamón""",https://orcid.org/0009-0003-9330-9292
+Rufname(n),"Set ""Michael Franke""",Michael
+Rufname(n),"Set ""Laura Bahamón Jiménez""",Laura
 ORCID,"Set ""David Walter""",https://orcid.org/0000-0001-6807-5007
-Rolle,"Set ""David Walter"" Set #1",Research Data Management
-Rolle,"Set ""David Walter"" Set #2","Data management R/Y Eugen Seibold, PANGAEA data editor"
-ROR-Suche,"Set ""David Walter"" Set #2",Max Planck Institute for Chemistry
-Affiliation,"Set ""Michael Franke"" Set #1",Max Planck Digital Library
-Affiliation,"Set ""Pepito Pérez"" Set #1",Max Planck Digital Library
-Affiliation,"Set ""David Walter (cff, keine ORCID)"" Set #1",Max Planck Digital Library
-Affiliation,"Set ""David Walter (cff, keine ORCID)"" Set #2",Max Planck Institute for Chemistry
-Affiliation,"Set ""Laura Bahamón"" Set #1",Max Planck Digital Library
+ORCID,"Set ""Michael Franke""",https://orcid.org/0000-0002-2661-8242
+ORCID,"Set ""Laura Bahamón Jiménez""",https://orcid.org/0009-0003-9330-9292
 Affiliation,"Set ""David Walter"" Set #1",Max Planck Digital Library
 Affiliation,"Set ""David Walter"" Set #2",Max Planck Institute for Chemistry
-ROR ID,"Set ""David Walter"" Set #1",https://ror.org/0061msm67
-ROR ID,"Set ""David Walter"" Set #2",https://ror.org/02f5b7n18
+Affiliation,"Set ""Michael Franke"" Set #1",Max Planck Digital Library
+Affiliation,"Set ""Laura Bahamón Jiménez"" Set #1",Max Planck Digital Library
 Gibt es existierende (personellen/finanziellen) Ressourcen oder wird es eine spezielle Finanzierung für die Softwareentwicklung geben?,,DFG grant application
 Wann beginnt das Softwareprojekt?,,2025-05-01
 Wann endet das Softwareprojekt?,,2027-04-30
@@ -42,7 +27,7 @@ Wie verfolgen Sie die verschiedenen Aufgaben und Anwendungsfälle?,,OpenProject;
 "Wird es einen Anforderungskatalog oder ein Lastenheft geben, in dem (kurz) die wichtigsten Anforderungen skizziert werden?",,Nein
 Gibt es institutionelle Anforderungen an die Softwareentwicklung?,,We will follow https://hdl.handle.net/21.11116/0000-000C-80B1-A.
 Gibt es Anforderungen bezüglich der Softwareentwicklung von externer Seite?,,No
-Welche Programmiersprache(n) planen Sie zu verwenden?,,Python
+Welche Programmiersprache(n) planen Sie zu verwenden?,,HTML; Python
 Welche Technologie oder welches Verfahren wird für die Versionierung verwendet?,,Git
 Welche externen Software-Komponenten werden verwendet? Welche Abhängigkeiten von Software-Bibliotheken gibt es? Wie dokumentieren Sie dies?,,"We will use ZZZ, which is a software package for professional weather visualisations"
 Welche Lizenzen liegen auf den Software-Komponenten von Drittanbietern?,,MIT
@@ -70,7 +55,7 @@ Wird diese Software öffentlich zugänglich sein?,,Ja
 "Werden die Nutzer die Möglichkeit haben, zu Ihrer Software beizutragen?",,"Yes, for example with pull requests in GitHub"
 Ist (offenes) Peer Review für die Software geplant?,,After the first final version the software will be published in the Journal of Open Source Software
 Wie vergeben Sie Metadaten für Ihre Software?,,"We will use a software called RDMO, which automatically generates metadata files like readme, codemeta, citation, and license"
-Geben Sie einen dauerhaften Identifikator für Ihre Software an?,,DOI: 10.5281/zenodo.1234
+Geben Sie einen dauerhaften Identifikator für Ihre Software an?,,DOI
 Planen Sie Unterstützung oder Hilfe für Nutzende Ihrer Software anzubieten?,,Ja
 Wie organisieren Sie den Support- und Feedbackprozess mit anderen Nutzenden?,,"support email address, and feedback also via GitHub"
 Steht Ihr Software-Management-Plan in Beziehung zu anderen Software-/Daten-Management-Plänen?,,"Yes, for the data measured with our AWS at the institute XXX a DMP exists: Weather Analyser - DMP, which will be available soon"
@@ -78,3 +63,4 @@ Steht Ihr Software-Management-Plan in Beziehung zu anderen Software-/Daten-Manag
 Wie ist die rechtliche Situation?,,There is an explicit document describing the owneship of the software
 "Wird im Rahmen des Projekts Software verwendet und/oder hergestellt, die durch geistige oder gewerbliche Eigentumsrechte Dritter geschützt ist?",,No
 Unter welche Art von Lizenz(en) wird die Software fallen?,,MIT
+Kann die Software auch für militärische Zwecke genutzt werden?,,No
