@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-10T19:07:34.290881+02:00" required="2.1.0" version="0.1.0.dev4987+g8b1e3829a.d20260331">
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-08-05T17:18:39.247893+02:00" required="2.1.0" version="2.5.1">
 	<title>Weather Analyser</title>
 	<description/>
 	<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/smp"/>
 	<tasks>
+		<task dc:uri="https://rdmo.mpdl.mpg.de/terms/tasks/determine_smp_versioning_tool"/>
 		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/clarify_consequences_international_law"/>
 		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_data_security_officer"/>
 		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_IT_department"/>
@@ -18,10 +19,57 @@
 	</tasks>
 	<views>
 		<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-citation"/>
+		<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-codemeta"/>
 		<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-readme"/>
+		<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-report"/>
 		<view dc:uri="https://rdmo.mpdl.mpg.de/views/FAIR4RSview"/>
 	</views>
 	<values>
+		<value>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/metadata/publication/github/sha/csvcomma"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<set_collection/>
+			<collection_index>0</collection_index>
+			<text>832ebe6b2d34d2d3f46a9f775f5bf10bab649d55</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-08-05T17:18:29.525002+02:00</created>
+			<updated>2026-08-05T17:18:29.525007+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/metadata/publication/github/sha/csvsemicolon"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<set_collection/>
+			<collection_index>0</collection_index>
+			<text>20131ecca8f6ec3d3a67cbb5a73d640cdc257f15</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-08-05T17:18:29.838216+02:00</created>
+			<updated>2026-08-05T17:18:29.838224+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/metadata/publication/github/sha/json"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<set_collection/>
+			<collection_index>0</collection_index>
+			<text>939158f571c3cc50cc55bf8bae56f82382e6a162</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-08-05T17:18:30.138425+02:00</created>
+			<updated>2026-08-05T17:18:30.138431+02:00</updated>
+		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation"/>
 			<set_prefix>0</set_prefix>
@@ -34,8 +82,23 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.510094+02:00</created>
-			<updated>2026-03-31T11:15:22.613930+02:00</updated>
+			<created>2026-03-16T15:16:47.359645+01:00</created>
+			<updated>2026-03-16T15:17:04.372007+01:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation"/>
+			<set_prefix>0</set_prefix>
+			<set_index>1</set_index>
+			<set_collection>True</set_collection>
+			<collection_index>0</collection_index>
+			<text>Max Planck Institute for Chemistry</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-03-16T15:16:47.360810+01:00</created>
+			<updated>2026-03-16T15:17:04.373072+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation"/>
@@ -49,8 +112,8 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.519956+02:00</created>
-			<updated>2026-03-31T11:15:22.622315+02:00</updated>
+			<created>2026-03-16T15:16:47.366793+01:00</created>
+			<updated>2026-03-16T15:17:04.373838+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation"/>
@@ -64,178 +127,13 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.527873+02:00</created>
-			<updated>2026-03-31T11:15:22.624462+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation"/>
-			<set_prefix>2</set_prefix>
-			<set_index>1</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Max Planck Institute for Chemistry</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.529833+02:00</created>
-			<updated>2026-03-31T11:15:22.626219+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation"/>
-			<set_prefix>3</set_prefix>
-			<set_index>0</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Max Planck Digital Library</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.539540+02:00</created>
-			<updated>2026-03-31T11:15:22.627761+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation"/>
-			<set_prefix>4</set_prefix>
-			<set_index>0</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Max Planck Digital Library</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-02-20T14:37:59.235673+01:00</created>
-			<updated>2026-03-31T11:15:23.104440+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation"/>
-			<set_prefix>4</set_prefix>
-			<set_index>1</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Max Planck Institute for Chemistry</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-02-20T14:38:10.199093+01:00</created>
-			<updated>2026-03-31T11:15:23.300510+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation/ror-autocomplete"/>
-			<set_prefix>4</set_prefix>
-			<set_index>1</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Max Planck Institute for Chemistry</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id>https://ror.org/02f5b7n18</external_id>
-			<created>2026-02-20T14:38:09.936144+01:00</created>
-			<updated>2026-03-31T11:15:23.125345+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation/ror-id"/>
-			<set_prefix>4</set_prefix>
-			<set_index>0</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>https://ror.org/0061msm67</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-02-20T14:37:59.243468+01:00</created>
-			<updated>2026-03-31T11:15:23.107870+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation/ror-id"/>
-			<set_prefix>4</set_prefix>
-			<set_index>1</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>https://ror.org/02f5b7n18</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-02-20T14:38:10.182821+01:00</created>
-			<updated>2026-03-31T11:15:23.286453+02:00</updated>
+			<created>2026-03-16T15:16:47.371565+01:00</created>
+			<updated>2026-03-16T15:17:04.374568+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name"/>
 			<set_prefix/>
 			<set_index>0</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Franke</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.504205+02:00</created>
-			<updated>2026-03-31T11:15:22.637542+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name"/>
-			<set_prefix/>
-			<set_index>1</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Pérez</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.516787+02:00</created>
-			<updated>2026-03-31T11:15:22.639171+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name"/>
-			<set_prefix/>
-			<set_index>2</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Walter (cff, keine ORCID)</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.524245+02:00</created>
-			<updated>2026-03-31T11:15:22.640833+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name"/>
-			<set_prefix/>
-			<set_index>3</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Bahamón</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.534791+02:00</created>
-			<updated>2026-03-31T11:15:22.642298+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name"/>
-			<set_prefix/>
-			<set_index>4</set_index>
 			<set_collection>True</set_collection>
 			<collection_index>0</collection_index>
 			<text>Walter</text>
@@ -244,13 +142,58 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-02-20T14:37:59.212414+01:00</created>
-			<updated>2026-03-31T11:15:23.090882+02:00</updated>
+			<created>2026-03-16T15:16:47.355967+01:00</created>
+			<updated>2026-03-16T15:17:04.375324+01:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<set_collection>True</set_collection>
+			<collection_index>0</collection_index>
+			<text>Franke</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-03-16T15:16:47.364297+01:00</created>
+			<updated>2026-03-16T15:17:04.376053+01:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name"/>
+			<set_prefix/>
+			<set_index>2</set_index>
+			<set_collection>True</set_collection>
+			<collection_index>0</collection_index>
+			<text>Bahamón Jiménez</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-03-16T15:16:47.369282+01:00</created>
+			<updated>2026-03-16T15:17:04.376764+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/given-name"/>
 			<set_prefix/>
 			<set_index>0</set_index>
+			<set_collection>True</set_collection>
+			<collection_index>0</collection_index>
+			<text>David</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-03-16T15:16:47.357262+01:00</created>
+			<updated>2026-03-16T15:17:04.377478+01:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/given-name"/>
+			<set_prefix/>
+			<set_index>1</set_index>
 			<set_collection>True</set_collection>
 			<collection_index>0</collection_index>
 			<text>Michael</text>
@@ -259,43 +202,13 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.506055+02:00</created>
-			<updated>2026-03-31T11:15:22.644945+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/given-name"/>
-			<set_prefix/>
-			<set_index>1</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Pepito</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.518426+02:00</created>
-			<updated>2026-03-31T11:15:22.647135+02:00</updated>
+			<created>2026-03-16T15:16:47.365163+01:00</created>
+			<updated>2026-03-16T15:17:04.378195+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/given-name"/>
 			<set_prefix/>
 			<set_index>2</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>David</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.526069+02:00</created>
-			<updated>2026-03-31T11:15:22.648974+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/given-name"/>
-			<set_prefix/>
-			<set_index>3</set_index>
 			<set_collection>True</set_collection>
 			<collection_index>0</collection_index>
 			<text>Laura</text>
@@ -304,58 +217,13 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.536628+02:00</created>
-			<updated>2026-03-31T11:15:22.650633+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/given-name"/>
-			<set_prefix/>
-			<set_index>4</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>David</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-02-20T14:37:59.201619+01:00</created>
-			<updated>2026-03-31T11:15:23.082847+02:00</updated>
+			<created>2026-03-16T15:16:47.370009+01:00</created>
+			<updated>2026-03-16T15:17:04.378989+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid"/>
 			<set_prefix/>
 			<set_index>0</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>https://orcid.org/0000-0002-2661-8242</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.507729+02:00</created>
-			<updated>2026-03-31T11:15:22.654077+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid"/>
-			<set_prefix/>
-			<set_index>3</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>https://orcid.org/0009-0003-9330-9292</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.537924+02:00</created>
-			<updated>2026-03-31T11:15:22.655747+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid"/>
-			<set_prefix/>
-			<set_index>4</set_index>
 			<set_collection>True</set_collection>
 			<collection_index>0</collection_index>
 			<text>https://orcid.org/0000-0001-6807-5007</text>
@@ -364,53 +232,38 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-02-20T14:37:59.188782+01:00</created>
-			<updated>2026-03-31T11:15:23.073427+02:00</updated>
+			<created>2026-03-16T15:16:47.358458+01:00</created>
+			<updated>2026-03-16T15:17:04.379822+01:00</updated>
 		</value>
 		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid-autocomplete"/>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid"/>
 			<set_prefix/>
-			<set_index>4</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>David Walter (Max Planck Digital Library, Max-Planck-Institut für Biogeochemie)</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id>0000-0001-6807-5007</external_id>
-			<created>2026-02-20T14:37:58.739683+01:00</created>
-			<updated>2026-03-31T11:15:22.777888+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/role"/>
-			<set_prefix>4</set_prefix>
-			<set_index>0</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Research Data Management</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-02-20T14:37:59.227498+01:00</created>
-			<updated>2026-03-31T11:15:23.099987+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/role"/>
-			<set_prefix>4</set_prefix>
 			<set_index>1</set_index>
 			<set_collection>True</set_collection>
 			<collection_index>0</collection_index>
-			<text>Data management R/Y Eugen Seibold, PANGAEA data editor</text>
+			<text>https://orcid.org/0000-0002-2661-8242</text>
 			<option/>
 			<file/>
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-02-20T14:37:59.250727+01:00</created>
-			<updated>2026-03-31T11:15:23.112086+02:00</updated>
+			<created>2026-03-16T15:16:47.365982+01:00</created>
+			<updated>2026-03-16T15:17:04.380561+01:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid"/>
+			<set_prefix/>
+			<set_index>2</set_index>
+			<set_collection>True</set_collection>
+			<collection_index>0</collection_index>
+			<text>https://orcid.org/0009-0003-9330-9292</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-03-16T15:16:47.370751+01:00</created>
+			<updated>2026-03-16T15:17:04.381279+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/type"/>
@@ -424,8 +277,8 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.502205+02:00</created>
-			<updated>2026-03-31T11:15:22.661363+02:00</updated>
+			<created>2026-03-16T15:16:47.354459+01:00</created>
+			<updated>2026-03-16T15:17:04.382009+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/type"/>
@@ -439,8 +292,8 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.515226+02:00</created>
-			<updated>2026-03-31T11:15:22.663305+02:00</updated>
+			<created>2026-03-16T15:16:47.363357+01:00</created>
+			<updated>2026-03-16T15:17:04.382881+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/type"/>
@@ -454,38 +307,8 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.522759+02:00</created>
-			<updated>2026-03-31T11:15:22.665125+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/type"/>
-			<set_prefix/>
-			<set_index>3</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text/>
-			<option dc:uri="https://rdmo.mpdl.mpg.de/terms/options/partner-types/person"/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.533084+02:00</created>
-			<updated>2026-03-31T11:15:22.666668+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/type"/>
-			<set_prefix/>
-			<set_index>4</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text/>
-			<option dc:uri="https://rdmo.mpdl.mpg.de/terms/options/partner-types/person"/>
-			<file/>
-			<value_type>option</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-02-20T14:37:48.368675+01:00</created>
-			<updated>2026-03-31T11:15:23.052944+02:00</updated>
+			<created>2026-03-16T15:16:47.368392+01:00</created>
+			<updated>2026-03-16T15:17:04.383641+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder"/>
@@ -499,73 +322,13 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2025-02-07T10:28:45.925258+01:00</created>
-			<updated>2026-03-31T11:15:22.670753+02:00</updated>
+			<created>2026-08-04T14:13:25.067761+02:00</created>
+			<updated>2026-08-05T16:35:51.445662+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
 			<set_prefix/>
 			<set_index>0</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Michael Franke</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.500255+02:00</created>
-			<updated>2026-03-31T11:15:22.672541+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
-			<set_prefix/>
-			<set_index>1</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Pepito Pérez</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.513173+02:00</created>
-			<updated>2026-03-31T11:15:22.674246+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
-			<set_prefix/>
-			<set_index>2</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>David Walter (cff, keine ORCID)</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.521299+02:00</created>
-			<updated>2026-03-31T11:15:22.675496+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
-			<set_prefix/>
-			<set_index>3</set_index>
-			<set_collection>True</set_collection>
-			<collection_index>0</collection_index>
-			<text>Laura Bahamón</text>
-			<option/>
-			<file/>
-			<value_type>text</value_type>
-			<unit/>
-			<external_id/>
-			<created>2026-03-31T11:13:55.531645+02:00</created>
-			<updated>2026-03-31T11:15:22.677175+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
-			<set_prefix/>
-			<set_index>4</set_index>
 			<set_collection>True</set_collection>
 			<collection_index>0</collection_index>
 			<text>David Walter</text>
@@ -574,8 +337,38 @@
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-02-20T14:37:46.210449+01:00</created>
-			<updated>2026-03-31T11:15:22.678879+02:00</updated>
+			<created>2026-03-16T15:16:47.353151+01:00</created>
+			<updated>2026-03-16T15:17:04.384346+01:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<set_collection>True</set_collection>
+			<collection_index>0</collection_index>
+			<text>Michael Franke</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-03-16T15:16:47.362338+01:00</created>
+			<updated>2026-03-16T15:17:04.385029+01:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
+			<set_prefix/>
+			<set_index>2</set_index>
+			<set_collection>True</set_collection>
+			<collection_index>0</collection_index>
+			<text>Laura Bahamón Jiménez</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-03-16T15:16:47.367628+01:00</created>
+			<updated>2026-03-16T15:17:04.385700+01:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_field"/>
@@ -590,7 +383,7 @@
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T09:42:45.303145+01:00</created>
-			<updated>2026-03-31T11:15:22.680688+02:00</updated>
+			<updated>2026-08-05T16:35:51.447283+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_field"/>
@@ -605,7 +398,7 @@
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T09:44:20.699014+01:00</created>
-			<updated>2026-03-31T11:15:22.683260+02:00</updated>
+			<updated>2026-08-05T16:35:51.448593+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/title"/>
@@ -624,7 +417,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:06:41.674349+01:00</created>
-			<updated>2026-03-31T11:15:22.685836+02:00</updated>
+			<updated>2026-08-05T16:35:51.449689+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_end"/>
@@ -639,7 +432,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:29:38.261720+01:00</created>
-			<updated>2026-03-31T11:15:22.687820+02:00</updated>
+			<updated>2026-08-05T16:35:51.450692+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_start"/>
@@ -654,7 +447,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:29:04.437794+01:00</created>
-			<updated>2026-03-31T11:15:22.689730+02:00</updated>
+			<updated>2026-08-05T16:35:51.451569+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/title"/>
@@ -668,8 +461,8 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.492077+02:00</created>
-			<updated>2026-03-31T11:15:22.691429+02:00</updated>
+			<created>2026-03-16T15:16:47.349485+01:00</created>
+			<updated>2026-08-05T16:35:51.452449+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/application-class"/>
@@ -678,13 +471,13 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<set_collection>False</set_collection>
 			<collection_index>0</collection_index>
 			<text/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/application-class/2"/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/application-class/3"/>
 			<file/>
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.543045+02:00</created>
-			<updated>2026-03-31T11:15:22.693122+02:00</updated>
+			<created>2026-03-16T15:16:47.373303+01:00</created>
+			<updated>2026-08-05T16:35:51.453535+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/buy-or-make"/>
@@ -699,7 +492,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:16:14.800891+01:00</created>
-			<updated>2026-03-31T11:15:22.695203+02:00</updated>
+			<updated>2026-08-05T16:35:51.454551+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/coding-standards"/>
@@ -714,7 +507,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:54:54.458110+01:00</created>
-			<updated>2026-03-31T11:15:22.696973+02:00</updated>
+			<updated>2026-08-05T16:35:51.455488+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/community-requirements"/>
@@ -729,7 +522,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:34:49.204837+01:00</created>
-			<updated>2026-03-31T11:15:22.698657+02:00</updated>
+			<updated>2026-08-05T16:35:51.456426+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/contribute-software"/>
@@ -744,7 +537,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:10:30.290512+01:00</created>
-			<updated>2026-03-31T11:15:22.700352+02:00</updated>
+			<updated>2026-08-05T16:35:51.457248+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/decision-releasing"/>
@@ -759,7 +552,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:04:27.980023+01:00</created>
-			<updated>2026-03-31T11:15:22.701816+02:00</updated>
+			<updated>2026-08-05T16:35:51.458077+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/development-process"/>
@@ -774,7 +567,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:32:30.646911+01:00</created>
-			<updated>2026-03-31T11:15:22.703493+02:00</updated>
+			<updated>2026-08-05T16:35:51.459001+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/documentation/documentation-stored"/>
@@ -789,7 +582,7 @@ Contribution to research: the software simplifies the quality control, and prepa
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:58:44.046932+01:00</created>
-			<updated>2026-03-31T11:15:22.705397+02:00</updated>
+			<updated>2026-08-05T16:35:51.459842+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/documentation/who-is-responsible"/>
@@ -805,7 +598,7 @@ Users will be provided with a user manual</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:58:44.045822+01:00</created>
-			<updated>2026-03-31T11:15:22.706546+02:00</updated>
+			<updated>2026-08-05T16:35:51.460806+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/dual-use"/>
@@ -820,7 +613,7 @@ Users will be provided with a user manual</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:28:22.513119+01:00</created>
-			<updated>2026-03-31T11:15:22.708067+02:00</updated>
+			<updated>2026-08-05T16:35:51.461697+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/external-components"/>
@@ -835,7 +628,7 @@ Users will be provided with a user manual</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:40:02.165586+01:00</created>
-			<updated>2026-03-31T11:15:22.709693+02:00</updated>
+			<updated>2026-08-05T16:35:51.462599+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/external-software-rights"/>
@@ -850,7 +643,7 @@ Users will be provided with a user manual</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:27:54.099546+01:00</created>
-			<updated>2026-03-31T11:15:22.711265+02:00</updated>
+			<updated>2026-08-05T16:35:51.463469+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/feedback-process"/>
@@ -865,7 +658,7 @@ Users will be provided with a user manual</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:24:52.228233+01:00</created>
-			<updated>2026-03-31T11:15:22.713756+02:00</updated>
+			<updated>2026-08-05T16:35:51.464375+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/governance-model"/>
@@ -880,7 +673,7 @@ Users will be provided with a user manual</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:54:54.456852+01:00</created>
-			<updated>2026-03-31T11:15:22.716443+02:00</updated>
+			<updated>2026-08-05T16:35:51.465347+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/infrastructure-existing"/>
@@ -896,7 +689,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:44:52.877362+01:00</created>
-			<updated>2026-03-31T11:15:22.718642+02:00</updated>
+			<updated>2026-08-05T16:35:51.466440+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/infrastructure-required"/>
@@ -911,7 +704,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:44:52.876598+01:00</created>
-			<updated>2026-03-31T11:15:22.720409+02:00</updated>
+			<updated>2026-08-05T16:35:51.467429+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/institutional-requirements"/>
@@ -926,7 +719,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:34:49.206129+01:00</created>
-			<updated>2026-03-31T11:15:22.721962+02:00</updated>
+			<updated>2026-08-05T16:35:51.468330+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/language"/>
@@ -934,6 +727,21 @@ Open source: Git versioning, and GitHub</text>
 			<set_index>0</set_index>
 			<set_collection>False</set_collection>
 			<collection_index>0</collection_index>
+			<text>HTML</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2026-03-16T15:16:47.374180+01:00</created>
+			<updated>2026-03-16T15:17:04.387913+01:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/language"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<set_collection>False</set_collection>
+			<collection_index>1</collection_index>
 			<text>Python</text>
 			<option/>
 			<file/>
@@ -941,7 +749,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:35:29.221596+01:00</created>
-			<updated>2026-03-31T11:15:22.723727+02:00</updated>
+			<updated>2026-08-05T16:35:51.469272+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/peer-review"/>
@@ -956,7 +764,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:10:30.289580+01:00</created>
-			<updated>2026-03-31T11:15:22.725333+02:00</updated>
+			<updated>2026-08-05T16:35:51.470140+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/preservation"/>
@@ -971,7 +779,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:50:07.714226+01:00</created>
-			<updated>2026-03-31T11:15:22.726652+02:00</updated>
+			<updated>2026-08-05T16:35:51.470976+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/publish-smp"/>
@@ -986,7 +794,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:25:16.665336+01:00</created>
-			<updated>2026-03-31T11:15:22.728008+02:00</updated>
+			<updated>2026-08-05T16:35:51.471848+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/qualified-references"/>
@@ -1001,7 +809,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:40:02.160548+01:00</created>
-			<updated>2026-03-31T11:15:22.730695+02:00</updated>
+			<updated>2026-08-05T16:35:51.477349+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/relation-SMP-DMP"/>
@@ -1016,7 +824,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:24:52.227435+01:00</created>
-			<updated>2026-03-31T11:15:22.732558+02:00</updated>
+			<updated>2026-08-05T16:35:51.478662+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/releasing-who"/>
@@ -1031,7 +839,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:04:27.981344+01:00</created>
-			<updated>2026-03-31T11:15:22.737680+02:00</updated>
+			<updated>2026-08-05T16:35:51.479713+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/re-usable"/>
@@ -1046,7 +854,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:50:07.715639+01:00</created>
-			<updated>2026-03-31T11:15:22.739145+02:00</updated>
+			<updated>2026-08-05T16:35:51.481336+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/safety"/>
@@ -1061,7 +869,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:53:36.312328+01:00</created>
-			<updated>2026-03-31T11:15:22.740669+02:00</updated>
+			<updated>2026-08-05T16:35:51.482239+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/security"/>
@@ -1076,7 +884,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:53:36.313298+01:00</created>
-			<updated>2026-03-31T11:15:22.742360+02:00</updated>
+			<updated>2026-08-05T16:35:51.483074+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-license"/>
@@ -1090,8 +898,8 @@ Open source: Git versioning, and GitHub</text>
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.497992+02:00</created>
-			<updated>2026-03-31T11:15:22.743815+02:00</updated>
+			<created>2026-03-16T15:16:47.351706+01:00</created>
+			<updated>2026-08-05T16:35:51.483840+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-metadata"/>
@@ -1106,7 +914,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:19:24.560376+01:00</created>
-			<updated>2026-03-31T11:15:22.746312+02:00</updated>
+			<updated>2026-08-05T16:35:51.484856+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-pid"/>
@@ -1114,14 +922,14 @@ Open source: Git versioning, and GitHub</text>
 			<set_index>0</set_index>
 			<set_collection>False</set_collection>
 			<collection_index>0</collection_index>
-			<text>10.5281/zenodo.1234</text>
+			<text/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/software_identifier/doi"/>
 			<file/>
 			<value_type>text</value_type>
 			<unit/>
 			<external_id/>
-			<created>2026-03-31T11:13:55.541162+02:00</created>
-			<updated>2026-03-31T11:15:22.748124+02:00</updated>
+			<created>2026-03-16T15:16:47.372329+01:00</created>
+			<updated>2026-08-05T16:35:51.485664+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-property-rights"/>
@@ -1136,7 +944,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:27:54.098361+01:00</created>
-			<updated>2026-03-31T11:15:22.749687+02:00</updated>
+			<updated>2026-08-05T16:35:51.486570+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-repository"/>
@@ -1151,7 +959,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:10:30.288341+01:00</created>
-			<updated>2026-03-31T11:15:22.751005+02:00</updated>
+			<updated>2026-08-05T16:35:51.487351+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-sharing"/>
@@ -1166,7 +974,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:05:28.637786+01:00</created>
-			<updated>2026-03-31T11:15:22.752462+02:00</updated>
+			<updated>2026-08-05T16:35:51.488136+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/specification-sheet"/>
@@ -1181,7 +989,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:32:30.650831+01:00</created>
-			<updated>2026-03-31T11:15:22.753692+02:00</updated>
+			<updated>2026-08-05T16:35:51.489164+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/store-software"/>
@@ -1196,7 +1004,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:04:27.982484+01:00</created>
-			<updated>2026-03-31T11:15:22.755009+02:00</updated>
+			<updated>2026-08-05T16:35:51.490059+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/support-for-software"/>
@@ -1211,7 +1019,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T11:20:15.900477+01:00</created>
-			<updated>2026-03-31T11:15:22.756289+02:00</updated>
+			<updated>2026-08-05T16:35:51.490870+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/technical-support"/>
@@ -1226,7 +1034,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:44:52.875591+01:00</created>
-			<updated>2026-03-31T11:15:22.757761+02:00</updated>
+			<updated>2026-08-05T16:35:51.491618+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/test-documentation"/>
@@ -1241,7 +1049,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:59:56.586194+01:00</created>
-			<updated>2026-03-31T11:15:22.759302+02:00</updated>
+			<updated>2026-08-05T16:35:51.492404+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/test-strategy"/>
@@ -1256,7 +1064,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:59:08.197010+01:00</created>
-			<updated>2026-03-31T11:15:22.760828+02:00</updated>
+			<updated>2026-08-05T16:35:51.493220+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/test-strategy"/>
@@ -1271,7 +1079,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:58:59.720674+01:00</created>
-			<updated>2026-03-31T11:15:22.763080+02:00</updated>
+			<updated>2026-08-05T16:35:51.494110+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/test-strategy"/>
@@ -1286,7 +1094,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:59:27.202420+01:00</created>
-			<updated>2026-03-31T11:15:22.765807+02:00</updated>
+			<updated>2026-08-05T16:35:51.494998+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/third-party-licenses"/>
@@ -1301,7 +1109,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:40:02.159601+01:00</created>
-			<updated>2026-03-31T11:15:22.768582+02:00</updated>
+			<updated>2026-08-05T16:35:51.495863+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/track-external-software"/>
@@ -1316,7 +1124,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:40:02.161344+01:00</created>
-			<updated>2026-03-31T11:15:22.770458+02:00</updated>
+			<updated>2026-08-05T16:35:51.496692+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/track-tasks"/>
@@ -1331,7 +1139,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:32:30.649105+01:00</created>
-			<updated>2026-03-31T11:15:22.771974+02:00</updated>
+			<updated>2026-08-05T16:35:51.497526+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/track-tasks"/>
@@ -1346,7 +1154,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:32:30.645116+01:00</created>
-			<updated>2026-03-31T11:15:22.773270+02:00</updated>
+			<updated>2026-08-05T16:35:51.498394+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/versioning"/>
@@ -1361,7 +1169,7 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:35:29.223024+01:00</created>
-			<updated>2026-03-31T11:15:22.774662+02:00</updated>
+			<updated>2026-08-05T16:35:51.499337+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/web-services"/>
@@ -1376,9 +1184,9 @@ Open source: Git versioning, and GitHub</text>
 			<unit/>
 			<external_id/>
 			<created>2025-02-07T10:40:02.162485+01:00</created>
-			<updated>2026-03-31T11:15:22.775902+02:00</updated>
+			<updated>2026-08-05T16:35:51.500140+02:00</updated>
 		</value>
 	</values>
-	<created>2025-02-07T13:57:46.861500+01:00</created>
-	<updated>2026-03-31T11:15:31.442816+02:00</updated>
+	<created>2026-03-16T15:16:47.346893+01:00</created>
+	<updated>2026-08-05T16:36:11.667317+02:00</updated>
 </project>
