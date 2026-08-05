@@ -1,0 +1,59 @@
+
+    {
+        "@context": "https://w3id.org/codemeta/3.0",
+        "name": "Weather Analyser",
+        "@type": "SoftwareSourceCode",
+        "applicationCategory": [
+            "Natural Sciences / Atmospheric Science and Oceanography",
+            "Natural Sciences / Water Research"
+        ],
+        "contributor": [          
+            {
+                "@id": "https://orcid.org/0000-0001-6807-5007",
+                "@type": "Person",
+                "familyName": "Walter",
+                "givenName": "David",
+                "affiliation": [
+                    { 
+                        "@type": "Organization",
+                        "name": "Max Planck Digital Library"
+                    }, 
+                    { 
+                        "@type": "Organization",
+                        "name": "Max Planck Institute for Chemistry"
+                    }
+                ]
+            },          
+            {
+                "@id": "https://orcid.org/0000-0002-2661-8242",
+                "@type": "Person",
+                "familyName": "Franke",
+                "givenName": "Michael",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Max Planck Digital Library"
+                }
+            },          
+            {
+                "@id": "https://orcid.org/0009-0003-9330-9292",
+                "@type": "Person",
+                "familyName": "Bahamón Jiménez",
+                "givenName": "Laura",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Max Planck Digital Library"
+                }
+            }
+        ],
+        "license": "https://spdx.org/licenses/MIT",
+        "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "doi",
+            "value":  ""
+        },
+        "datePublished": "2027-04-30",
+        "programmingLanguage": [
+            "HTML",
+            "Python"
+        ]
+    }
